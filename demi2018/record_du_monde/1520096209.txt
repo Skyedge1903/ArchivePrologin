@@ -1,0 +1,5 @@
+On fait la moyenne pondere par la chaleur de la position des point.
+On arromdie le resultat a la case la plus proche.
+On soustraie la diatance de la case a l imtemsite de chaques poimts de chaleur.
+On additionne toutes les intensites iradiantes precedentes de chacun des points de chaleur. 
+On affiche le resultat.

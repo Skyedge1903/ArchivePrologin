@@ -1,0 +1,2 @@
+On fait um robot qui accede aux cases disponibles en les comptant par exploration. Les cases inaccesibles sont donc entoures.
+On calcul le nombre de case total et on soustraie aux cases decouvertes.

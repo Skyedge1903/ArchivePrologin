@@ -1,0 +1,31 @@
+n = int(input())
+k = int(input())
+liste_taille = list(map(int, input().split()))
+j=0
+o=0
+total = 0
+
+for i in range(0,n):
+    mini = liste_taille[i]
+    j=i+1
+    print(mini)
+    
+    while 1:
+        if j>=n:
+            print(o)
+            break
+        if liste_taille[j] < mini:
+            mini = liste_taille[j]
+            print(mini)
+            o+=1    
+            if o==k-1 :
+                total+=1
+                break
+
+        j+=1
+    o=0
+print(total)
+
+"""
+Pour que le programme fonctionne il faut recoder en fonction récurente pour traiter les sous ensembles k-i<1 
+"""
